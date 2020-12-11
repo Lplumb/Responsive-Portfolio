@@ -5,9 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="container">
+    <!--starts the container grid, have a background color set-->
+    <div class="container bg-dark text-white">
 
         <!--Navigation bar with also my name-->
         <div class="row">
@@ -33,6 +36,8 @@
                 </nav>
             </header>
         </div>
+        <br>
+        <br>
 
 
         <!--The portfolio row, just dedicated to being a header row-->
@@ -41,32 +46,36 @@
                 <h2>Portfolio</h2>
             </div>
         </div>
+        <br>
 
-        <!--this is there all the images are, should line them up single file vertically when the window size is too small-->
-        <div class="row">
-            <div class="col-md-6">
-                <img src="./pics/smug frost.png" height="350px" width="350px" class="float-left">
+        <!--this is there all the images are, should line them up single file vertically when the window size is too small, added edits to bottom marigin to space images out so they aren't just touching-->
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <img src="./pics/smug frost.png" height="350px" width="350px" class="float-left">
+                </div>
+                <div class="col-md-6 mb-3">
+                    <img src="./pics/smug frost.png" height="350px" width="350px" class="float-right">
+                </div>
             </div>
-            <div class="col-md-6">
-                <img src="./pics/smug frost.png" height="350px" width="350px" class="float-right">
-            </div>
-        
+                
             <!--second row of images-->
         <div class="row">
-            <div class="col-md-6 ">
+            <div class="col-md-6 mb-3">
                 <img src="./pics/smug frost.png" height="350px" width="350px" class="float-left">
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 mb-3">
                 <img src="./pics/smug frost.png" height="350px" width="350px" class="float-right">
             </div>
-            
+        </div>
+        
+        
             <!--third row of images-->
         <div class="row">
-            <div class="col-sm-6">
+            <div class="col-sm-6 mb-3">
                 <img src="./pics/smug frost.png" height="350px" width="350px" class="float-left">
             </div>
         </div>
-        </div>
-        </div>
+
+    </div>
 </body>
 </html>
