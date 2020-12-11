@@ -10,7 +10,7 @@
     <div class="container bg-dark text-white">
 
         <!--Navigation bar with also my name-->
-        <div class="row">
+        <div class="row mb-3">
             <header>
                 <nav class="navbar navbar-expand-md navbar-light bg-light">
                     <a class="navbar-brand" href="#">Lucas Plumb</a>
@@ -34,15 +34,52 @@
             </header>
         </div>
         
-        
+        <!--Just a header for this tab-->
         <div class="row">
             <div class="col-lg-10 bg=light">
                 <h2>Contact</h2>
             </div>
         </div>
 
+        <!--Contains the row that will house the inputs for people to enter thier name and email and messages-->
         <div class="row">
-            
+            <form>
+                <!--Inserts the name enter textbox-->
+                <div class="row">
+                    <div class="col-md-9">
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Name</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            <small id="emailHelp" class="form-text text-muted"></small>
+                        </div>
+                    </div>
+                </div>
+
+                <!--contains the email enter textbox-->
+                <br>
+                <div class="row">
+                    <div class="col-md-9">
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">E-Mail</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            <small id="emailHelp" class="form-text text-muted"></small>
+                        </div>
+                    </div>
+                </div>
+
+                <!--has the message textbox-->
+                <br>
+                <div class="row">
+                    <div class="col-md-9">
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Message</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                    </div>
+                </div>
+                  <br>
+
+              </form>
         </div>
 
 </body>
