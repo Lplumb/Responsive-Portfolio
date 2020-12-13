@@ -1,0 +1,4 @@
+each file is created and has apporiate names (index, portfolio and, contacts)
+Used bootstrap columns, rows and, containers
+Navbar is on everypage and links are functional
+nav bar collapses
