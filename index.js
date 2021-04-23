@@ -81,6 +81,6 @@ function displayContact(){
 
 //Target H2 to change whats viewing
 //target a card on the index to switch info showing
-//makes images view properly or somthing i dunno
+//makes images view properly or something i dunno
 //working links to projects that view need 3
 //
